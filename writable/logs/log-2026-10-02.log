@@ -1,0 +1,203 @@
+ERROR - 2026-10-02 16:07:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Database.php(72): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Commands\Database\CreateDatabase.php(136): CodeIgniter\Database\Config::forge()
+#5 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#8 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Database.php(72): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Commands\Database\CreateDatabase.php(136): CodeIgniter\Database\Config::forge()
+#4 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#7 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#8 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#9 {main}
+ERROR - 2026-10-02 16:08:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Database.php(72): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Commands\Database\CreateDatabase.php(136): CodeIgniter\Database\Config::forge()
+#5 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#8 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Database.php(72): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Commands\Database\CreateDatabase.php(136): CodeIgniter\Database\Config::forge()
+#4 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#7 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#8 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#9 {main}
+ERROR - 2026-10-02 16:08:17 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Database.php(72): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Commands\Database\CreateDatabase.php(136): CodeIgniter\Database\Config::forge()
+#5 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#8 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Database.php(72): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Commands\Database\CreateDatabase.php(136): CodeIgniter\Database\Config::forge()
+#4 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#7 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#8 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#9 {main}
+ERROR - 2026-10-02 16:17:04 --> mysqli_sql_exception: Can't create database 'blog_portfolio'; database exists in C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE DATABASE...', 0)
+#1 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Database\Forge.php(232): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Commands\Database\CreateDatabase.php(136): CodeIgniter\Database\Forge->createDatabase('blog_portfolio')
+#5 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#8 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 C:\Users\Joanna\OneDrive\Desktop\ws101_midterm2\blog-portfolio\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2026-10-02 16:41:25 --> ParseError: syntax error, unexpected token "\", expecting end of file
+[Method: CLI, Route: migrate]
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-10-02 16:41:41 --> ParseError: syntax error, unexpected token "\", expecting end of file
+[Method: CLI, Route: migrate]
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-10-02 16:41:55 --> ParseError: syntax error, unexpected token "\", expecting end of file
+[Method: CLI, Route: migrate:status]
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-10-02 16:42:40 --> ParseError: syntax error, unexpected token "\", expecting end of file
+[Method: CLI, Route: migrate]
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-10-02 16:43:02 --> ParseError: syntax error, unexpected token "\", expecting end of file
+[Method: CLI, Route: migrate:status]
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-10-02 16:58:30 --> ErrorException: Cannot declare class App\Database\Migrations\CreateProjectsTable, because the name is already in use
+[Method: CLI, Route: migrate]
+in APPPATH\Database\Migrations\2026-10-02-161805_CreateProjectsTable.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-10-02 17:08:22 --> ParseError: syntax error, unexpected token "\"
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 1.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-02 17:14:09 --> ParseError: syntax error, unexpected token "\"
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 1.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-02 17:22:39 --> ParseError: syntax error, unexpected token "\"
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 1.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-02 17:24:10 --> ParseError: syntax error, unexpected token "\"
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 6.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-02 17:24:50 --> ParseError: syntax error, unexpected token "\"
+[Method: GET, Route: posts]
+in APPPATH\Controllers\Post.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Joanna\\OneDrive\\Desktop\\ws101_midterm2\\blog-portfolio\\app\\Controllers\\Post.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Post')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Post')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Post', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-02 17:26:02 --> ParseError: syntax error, unexpected token "\", expecting variable
+[Method: GET, Route: posts]
+in APPPATH\Models\PostModel.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Joanna\\OneDrive\\Desktop\\ws101_midterm2\\blog-portfolio\\app\\Models\\PostModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PostModel')
+ 3 APPPATH\Controllers\Post.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PostModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
